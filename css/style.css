@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #eee;
+}
+
+#header {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  min-height: 75px;
+  background-color: #eee;
+} 
+
+.logo {
+  width: 60vw;
+}
+
+#header-img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content:center;
+  margin-left: 20px;
+}
+
+#nav-bar ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#nav-bar a {
+  color: #000000;
+}
+
+#sec1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#title {
+  margin-top: 5rem;
+}
+
+#form {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#email {
+  padding: 5px;
+  width: 100%;
+  max-width: 275px;
+  margin-top: 15px;
+}
+
+#submit {
+  width: 150px;
+  margin: 15px 0 0 0;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #f1c40f;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#sec2{
+  margin-top: 100px;
+}
+
+.grid {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+#sec3 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#sec4 {
+  margin: 3rem 8rem 0 8rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+.level {
+  background-color: #DDDDDD;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+ol {
+  margin: 15px 0;
+}
+
+.btn {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 120px;
+  height: 30px;
+  background-color: #f1c40f;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: rgba(221, 221, 221, 0.5);
+  padding: 20px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  margin-left: 20px;
+}
+
+footer ul li a {
+  color: #000000;
+}
+
+footer span {
+  display: flex;
+  justify-content: flex-end;
+  color: #444;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
