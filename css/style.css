@@ -80,7 +80,7 @@ body {
   text-transform: uppercase;
 }
 
-#sec2{
+#features{
   margin-top: 100px;
 }
 
@@ -104,12 +104,12 @@ body {
   padding: 5px;
 }
 
-#sec3 {
+#video {
   margin-top: 40px;
   text-align: center;
 }
 
-#sec4 {
+#pricing {
   margin: 3rem 8rem 0 8rem;
   display: flex;
   justify-content: center;
@@ -178,4 +178,11 @@ footer span {
   color: #444;
   font-size: 0.9rem;
   margin-top: 5px;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+  display: flex;
+  flex-direction: column;
+  }
 }
